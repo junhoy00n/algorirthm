@@ -7,10 +7,10 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		long a = sc.nextLong();
-		long b = sc.nextLong();
-		long c = sc.nextLong();
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int k = sc.nextInt();
 		
-		System.out.println(a+b+c);
+		System.out.println(k/m + " " + k%m);
 	}
 }
